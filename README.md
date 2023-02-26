@@ -25,6 +25,7 @@ const longitude = match[2];
 console.log(`${latitude},${longitude}`);
 console.log(`${href}`);```
 
+
 The code first uses the querySelector method to find the link element that contains the Google Maps URL. It then gets the value of the href attribute of this element and uses a regular expression to extract the latitude and longitude from the URL. Finally, it logs the latitude, longitude, and link to Google Maps to the console.
 
 # Contributing
