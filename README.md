@@ -9,7 +9,8 @@ To use this code, you need to have a webpage with a link element that contains a
 
 Here is an example of how to use the code:
 
-```// get the link element from the site
+```
+// get the link element from the site
 const linkElement = document.querySelector('a[href*="https://maps.google.com/maps/"]');
 
 // get the href attribute of the link
@@ -23,8 +24,10 @@ const longitude = match[2];
 
 // log the latitude, longitude, and link to the console
 console.log(`${latitude},${longitude}`);
-console.log(`${href}`);```
+console.log(`${href}`);
 
+// Made by Hurricane, if you share this on YouTube or anything PLEASE CREDIT ME!!!!!!!!
+```
 
 The code first uses the querySelector method to find the link element that contains the Google Maps URL. It then gets the value of the href attribute of this element and uses a regular expression to extract the latitude and longitude from the URL. Finally, it logs the latitude, longitude, and link to Google Maps to the console.
 
